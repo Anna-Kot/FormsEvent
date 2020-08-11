@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="f3" id="form_3" required>
+        <h1>Create your account</h1>
+        <label>
+            <span>First Name</span>
+            <br>
+            <input type="text" name="first" placeholder="type here..." onfocus="this.className='border_input'" onblur="this.className='border_out'">
+        </label>
+        <label>
+            <span>Second Name</span>
+            <br>
+            <input type="text" name="second" placeholder="type here..." onfocus="this.className='border_input'" onblur="this.className='border_out'">
+        </label>
+        <label>
+            <span> Email address</span>
+            <br>
+            <input type="text" name="email" placeholder="enter email..." onfocus="this.className='border_input'" onblur="this.className='border_out'">
+        </label>
+        <label class="mw">
+            <label>
+                <input type="radio" name="m_w" value="man" id="m" onclick="radio_man()" checked>man
+            </label>
+            <label>
+                <input type="radio" name="m_w" value="woman" id="w" onclick="radio_woman()">woman
+            </label>
+        </label>
+        <select name="prof" onfocus="this.className='border_input'" onblur="this.className='border_out'">
+            <option placeholder="choose">Choose...</option>
+            <option value="Frontend" selected>Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="QC/QA">QC/QA</option>
+        </select>
+        <label class="check">
+            <input type="checkbox" name="agree" required>I agree all statements in Terms of service
+        </label>
+        <input type="button" name="up" value="Sign Up"  class="but_up" id='s_up'>
+    </form>
+    <div class="about" id="all">
+        <div class="white_bg">
+            <div class="photo"></div>
+            <div class="name_sur">
+                <h2 id="firstname">name</h2>
+                <h2 id="lastname">surname</h2>
+            </div>
+            <p id="mail">mail</p>
+            <p id="profes">Frontend</p>
+            <input type="button" value="Sign Out" name="out" id='s_out'>
+        </div>
+        <div class="icon">
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c0cfd45983.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

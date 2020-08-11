@@ -1,0 +1,166 @@
+bbody {
+    background-color: white;
+}
+form {
+    width: 560px;
+    height: 550px;
+    border: 2px solid rgb(187, 184, 184);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 0px;
+    color: white;
+    background-color: rgba(13, 155, 107, 0.815);
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(13, 155, 107, 0.815);
+}
+input[name="up"] {
+    background-color: rgb(11, 197, 126);
+    width: 500px;
+    height: 40px;
+    cursor: pointer;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    border: 1px  solid rgb(170, 170, 170);
+    outline: none;
+    font-size: 16px;
+}
+/* input[name="out"]:active {
+    background-color: rgb(2, 90, 56);
+} */
+label {
+    margin: 7px auto;
+}
+span {
+    color: rgb(48, 46, 46);
+    font-size: 18px;
+}
+input[type="text"] {
+    width: 500px;
+    box-sizing: border-box;
+    height: 40px;
+    margin-top: 7px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 6px;
+    outline: none;
+}
+select[name="prof"] {
+    width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 6px;
+    outline: none;
+}
+.check {
+    margin-left: 25px;
+}
+.mw {
+    margin-left: 25px;
+}
+.about {
+    width: 380px;
+    height: 415px;
+    border: 2px solid rgb(187, 184, 184);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: rgba(13, 155, 107, 0.815);
+}
+.white_bg {
+    background-color: white;
+    margin-top: 100px;
+    height: 260px;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+    margin: auto;
+    margin-top: -50px;
+    box-sizing: border-box;
+    background-image: url(man.jpg);
+    background-size: cover;
+}
+.photo_w {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+    margin: auto;
+    margin-top: -50px;
+    box-sizing: border-box;
+    background-image: url(woman.jpg);
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    color: rgb(94, 93, 93);
+    font-family: sans-serif;
+    margin-right: 5px;
+}
+p {
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-family: sans-serif;
+}
+#mail {
+    margin-top: -5px;
+}
+#profes {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(236, 236, 236);
+}
+input[name="out"] {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px auto;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: rgb(14, 99, 70);
+    font-size: 16px;
+    border: 1px  solid rgba(13, 155, 107, 0.815);
+    outline: none;
+}
+i {
+    color: white;
+    margin-right: 10px;
+}
+.icon {
+    padding-top: 14px;
+    margin: 0 auto;
+}
+.name_sur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#all {
+    display: none;
+}
+
+.border_input {
+ border: 2px solid rgb(44, 168, 240);
+ box-shadow: 0 0px 2px 2px rgb(46, 170, 241);
+}
+.border_out {
+    box-shadow: none;
+    border: 1px  solid rgb(170, 170, 170);
+}

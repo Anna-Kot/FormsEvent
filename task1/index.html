@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[name = "name_f"], input[name = "new"] {
+        width: 200px;
+        height: 40px;
+        border: 1px solid silver;
+        box-sizing: border-box;
+        border-radius:5px;
+        outline: none;
+        color: rgb(88, 88, 88);
+        }
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 650px;
+        }
+        input[name = "move"] {
+            background-color: green;
+            color: white;
+            width: 200px;
+            border: 1px solid silver;
+            height: 40px;
+            border-radius:5px;
+            outline: none;
+            cursor: pointer;
+        }
+        input[name = "name_place"] {
+            width: 650px;
+            height: 40px;
+            border: 1px solid rgb(192, 192, 192);
+            box-sizing: border-box;
+            border-radius:5px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task move</h1>
+    <p>Значення переміщується з одного інпута в інший тільки, якщо там є значення</p>
+    <form name='f1'>
+        <input type="text" name="name_f" id="first" value="">
+        <input type="button" name="move" value = "move" >
+        <input type="text" name="new" id= "second" value=""> 
+    </form>
+    <h1>Task placeholder</h1>
+    <p>Значення переміщується в placeholder тільки якщо там є значення</p>
+    <form name = "f2">
+        <input type="text" name="name_place" placeholder="" id="n" value="">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
